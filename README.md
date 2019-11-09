@@ -58,7 +58,7 @@ use
 
 `$  invoke deploy --stage=dev --aws-profile=kodatex`
 
-This will deploy all the resources andlambda functions to AWS.
+This will deploy all the resources and Lambda functions to AWS.
 `Note: Recommendation is to deploy dev and testing environments in a differnet AWS 
 account`
 
