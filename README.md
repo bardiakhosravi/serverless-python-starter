@@ -71,5 +71,9 @@ Remove your entire stack using
 If using PyCharm ensure to set the project interpreter to be 
 the created virtual environment by pipenv
 
+## References
+
+1. [Serverless framework documentation](https://serverless.com/framework/docs/) to learn how to work with the 
+serverless framework 
 
  
