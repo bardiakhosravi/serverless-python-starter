@@ -56,11 +56,15 @@ This will deploy to an AWS account using your `[default]`
 credentials set in ~/.aws/credentials. If you wish to deploy using a specific profile
 use
 
-`$  invoke deploy --stage=dev --aws-profile=kodatex`
+`$ invoke deploy --stage=dev --aws-profile=<profile name>`
 
 This will deploy all the resources and Lambda functions to AWS.
 `Note: Recommendation is to deploy dev and testing environments in a differnet AWS 
 account`
+
+Remove your entire stack using
+
+`$ invoke remove --stage=<stage name> --aws-profile=<profile name>`
 
 ## Pycharm Setup
 
